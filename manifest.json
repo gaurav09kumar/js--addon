@@ -1,0 +1,16 @@
+{
+  "manifest_version":2,
+  "name" :"Borderify",
+  "version":"1.0",
+
+  "description":"Basic add-on",
+
+  "browser_action":{
+    "default_title":"Weather",
+    "default_popup":"popup.html"
+  },
+
+  "permissions":[
+    "http://api.openweathermap.org/*"
+  ]
+}
